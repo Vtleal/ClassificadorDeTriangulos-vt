@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classificador de triângulos</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <link rel="stylesheet" href="CSS/flexbox.css">
+    <script src="app.js"></script>
+    
+</head>
+<body class="container__corpo">
+    <main class="container__principal">
+        <h1 class="container__titulo">Classificador de triângulos</h1>
+        <p class="container__descricao">Para realizar a classificação dos triângulos, digite o comprimento de cada lado do triângulo que você escolheu!</p>
+        <section class="container__botoes">
+            <label for="botao__lado-direito" class="label__direito">Lado direito</label>
+            <input type="text" id="botao__lado-direito" class=" botao lado__direito" placeholder="0000">
+            
+            <label for="botao__lado-esquerdo" class="label__esquerdo">Lado esquerdo</label>
+            <input type="text" id="botao__lado-esquerdo" class="botao lado__esquerdo" placeholder="0000">
+            
+            <label for="embaixo" class="label__embaixo">Embaixo</label>
+            <input type="text" id="embaixo" class="botao embaixo" placeholder="0000">
+        </section>
+        <div class="div__resultado">
+            <button onclick="resultadoFinal()" class="botao__resultado">Resultado final:</button>
+            <p id="result" class="botao container__resultado"></p>
+        </div>
+        
+    </main>
+</body>
+</html>

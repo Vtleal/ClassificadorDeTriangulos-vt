@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --fonte-principal: 'Poppins', sans-serif;
+
+    --cor-de-fundo: #131313;
+    --cor-do-main: #1E2533;
+    --cor-da-section: #DC5F00;
+    --cor-dos-botoes: #481E14;
+    --branco: white;
+}
+.container__corpo {
+    font-family: var(--fonte-principal);
+    background-color: var(--cor-de-fundo);
+}
+.container__principal {
+    background-color: var(--cor-do-main);
+    box-shadow: 5px 10px 2.5px rgba(0, 0, 0, 0.2);
+}
+.container__botoes {
+    background-color: var(--cor-da-section);
+    box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.2);
+}
+.botao {
+    background-color: var(--cor-dos-botoes);
+    box-shadow: 5px 5px  rgba(0, 0, 0, 0.2);
+}
+.div__resultado {
+    background-color: var(--cor-da-section);
+    box-shadow: 5px 5px 2.5px rgba(0, 0, 0, 0.2);
+}
+.botao__resultado {
+    background-color: var(--cor-do-main);
+    color: var(--branco);
+    box-shadow: 5px 10px 2.5px rgba(0, 0, 0, 0.2);
+}
+.botao__resultado:hover {
+    color: var(--cor-do-main);
+    background-color: var(--branco);
+    font-weight: 700;
+}
+.container__resultado {
+    box-shadow: 5px 10px 2.5px rgba(0, 0, 0, 0.2);
+}

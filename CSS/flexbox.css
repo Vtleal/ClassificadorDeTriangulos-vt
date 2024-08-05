@@ -1,0 +1,42 @@
+.container__principal {
+    margin: 80px 370px;
+    padding: 30px;
+    width: 500px;
+}
+.container__titulo {
+    text-align: center;
+}
+.container__descricao {
+    text-align: center;
+}
+.container__botoes {
+    text-align: center;
+    margin: 10px 150px;
+    width: 200px;
+    border-radius: 25px;
+    padding: 15px;
+    align-items: center;
+}
+.botao {
+    padding: 10px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+}
+.div__resultado {
+    display: flex;
+    padding: 25px;
+    width: 300px;
+    border-radius: 25px;
+    justify-content: center;
+    margin-left: 85px;
+}
+.botao__resultado {
+    border: none;
+    padding: 4px;
+    margin: 2.5px;
+    border-radius: 5px;
+}
+.container__resultado {
+    margin-left: 25px;
+}
